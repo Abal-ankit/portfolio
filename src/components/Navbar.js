@@ -94,7 +94,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/Abalankit2003"
+                href="https://github.com/Abal-ankit"
                 target="_blank"
                 className="fork-btn-inner"
               >

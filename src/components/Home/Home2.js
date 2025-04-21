@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiLeetcode, SiCodechef } from "react-icons/si";
 
 function Home2() {
   return (
@@ -65,7 +66,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Abalankit2003"
+                  href="https://github.com/Abal-ankit"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,12 +76,22 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://x.com/Abal_ankit"
+                  href="https://leetcode.com/u/Abal__ankit/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <SiLeetcode />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.codechef.com/users/abal_ankit"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiCodechef />
                 </a>
               </li>
               <li className="social-icons">
