@@ -1,16 +1,17 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
+
+    const handleClick = () => {
+      window.location.href = `mailto:someone@example.com?subject=Hello&body=Hi, I wanted to reach out to you.`;
+    };
+
   return (
     <Container fluid className="footer">
       <Row>
@@ -50,6 +51,16 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                onClick={handleClick}
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiOutlineMail />
               </a>
             </li>
           </ul>

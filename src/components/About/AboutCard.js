@@ -11,9 +11,13 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple"> Ankit Raj </span>
             from <span className="purple"> Bihar, India.</span>
             <br />
-            I am currently studying Bachelor of Technology in .
+            I am currently studying Bachelor of Technology in Computer science
+            and engineering.
             <br />
-            Computer science and engineering.
+            I am a dedicated full-stack developer skilled in the MERN
+            stack, passionate about building scalable web applications. I
+            explore DevOps, real-time systems, and innovative tech solutions to
+            solve real-world problems.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

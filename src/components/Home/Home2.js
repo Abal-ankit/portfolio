@@ -4,13 +4,16 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiLeetcode, SiCodechef } from "react-icons/si";
 
 function Home2() {
+
+    const handleClick = () => {
+      window.location.href = `mailto:ankitraj90747@gmail.com?subject=Hello! Ankit Raj&body=Hi, I wanted to reach out to you.`;
+    };
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -102,6 +105,15 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  onClick={handleClick}
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiOutlineMail />
                 </a>
               </li>
             </ul>
